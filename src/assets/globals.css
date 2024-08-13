@@ -14,6 +14,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: #e2e2e2;
+}
+
 .checkbox {
   appearance: none;
   width: 22px;

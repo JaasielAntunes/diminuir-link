@@ -32,7 +32,7 @@ export const theme = {
       blue_dark: '#134b70',
       footer: '#051a28',
       bright: '#EEEEEE',
-      low_white: 'rgba(255, 255, 255, 0.7)',
+      low_white: '#ffffffb3',
       gray: '#e2e2e2',
       gray_dark: '#777777',
       border_gray: '#CCCCCC',
