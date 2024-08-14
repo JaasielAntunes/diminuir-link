@@ -19,7 +19,6 @@ body {
 }
 
 .checkbox {
-  appearance: none;
   width: 22px;
   height: 22px;
   border-radius: 5px;
@@ -30,18 +29,4 @@ body {
 
 .checkbox-first {
   background-color: rgba(217, 217, 217, 1);
-}
-
-.checkbox:checked {
-  background-color: blue;
-  border-color: blue;
-}
-
-.checkbox:checked::after {
-  content: '';
-  position: absolute;
-  top: 0.125rem;
-  left: 0.25rem;
-  width: 0.5rem;
-  height: 0.75rem;
 }
