@@ -6,7 +6,8 @@ export const content = [
   './pages/**/*.{ts,tsx,vue}',
   './components/**/*.{ts,tsx,vue}',
   './app/**/*.{ts,tsx,vue}',
-  './src/**/*.{ts,tsx,vue}'
+  './src/**/*.{ts,tsx,vue}',
+  './node_modules/flowbite/**/*.js'
 ]
 export const prefix = ''
 export const theme = {
@@ -30,6 +31,7 @@ export const theme = {
       border_secondary: '#337ab7',
       midnight: '#1C274C',
       blue_dark: '#134b70',
+      blue_light: '#256e9e',
       footer: '#051a28',
       bright: '#EEEEEE',
       low_white: '#ffffffb3',

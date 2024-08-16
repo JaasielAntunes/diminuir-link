@@ -15,7 +15,7 @@ import Label from '../Label.vue'
         />
         <button
           type="button"
-          class="absolute right-1.5 my-2 rounded-lg bg-secondary p-4 text-[15px] font-normal uppercase leading-[18.15px] text-white transition-all duration-300 hover:bg-blue_dark"
+          class="absolute right-1.5 my-2 rounded-lg bg-secondary p-4 text-[15px] font-normal uppercase leading-[18.15px] text-white transition-all duration-300 hover:bg-blue_light"
         >
           encurtar
         </button>

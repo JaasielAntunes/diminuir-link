@@ -8,7 +8,7 @@ const props = defineProps<{
 
 <template>
   <div
-    class="group hidden h-[140px] w-[300px] grid-cols-[auto_1fr] items-center bg-slate-300 p-4 transition-all duration-300 hover:bg-secondary sm:grid"
+    class="group hidden h-[140px] w-[300px] grid-cols-[auto_1fr] items-center bg-gray p-4 transition-all duration-300 hover:bg-secondary sm:grid"
   >
     <div v-if="icon" class="mr-5">
       <img :src="icon" alt="Ícone" class="group-hover:brightness-0 group-hover:invert" />

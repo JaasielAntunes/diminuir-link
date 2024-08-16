@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  background-color: #e2e2e2;
+  background-color: #f1f0f0;
 }
 
 .checkbox {
@@ -26,8 +26,4 @@ body {
   background-color: white;
   display: inline-block;
   position: relative;
-}
-
-.checkbox-first {
-  background-color: rgba(217, 217, 217, 1);
 }

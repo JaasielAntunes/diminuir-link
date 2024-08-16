@@ -51,13 +51,13 @@ const menuOpen = () => {
       <div class="block items-center gap-[10px] space-x-3 lg:hidden lg:space-x-1">
         <button
           type="button"
-          class="my-5 h-[38px] w-24 rounded-[10px] bg-white px-[15px] py-[11.5px] text-center text-[12px] font-semibold uppercase leading-[14.52px] text-secondary transition-all duration-300 hover:bg-slate-300 hover:text-black focus:outline-none"
+          class="my-5 h-[38px] w-24 rounded-[10px] bg-white px-[15px] py-[11.5px] text-center text-[12px] font-semibold uppercase leading-[14.52px] text-secondary transition-all duration-300 hover:bg-slate-100 hover:text-black focus:outline-none"
         >
           login
         </button>
         <router-link
           to="/register"
-          class="h-[38px] w-24 rounded-[10px] bg-secondary px-[15px] py-[11.5px] text-center text-[12px] font-medium uppercase leading-[14.52px] text-white transition-all duration-300 hover:bg-blue_dark hover:text-white focus:outline-none"
+          class="h-[38px] w-24 rounded-[10px] bg-secondary px-[15px] py-[11.5px] text-center text-[12px] font-medium uppercase leading-[14.52px] text-white transition-all duration-300 hover:bg-blue_light hover:text-white focus:outline-none"
         >
           cadastro
         </router-link>
