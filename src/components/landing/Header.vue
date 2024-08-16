@@ -1,7 +1,9 @@
 <script setup lang="ts">
 import { MenuIcon, XIcon } from 'lucide-vue-next'
 import { ref } from 'vue'
+import { useRouter } from 'vue-router'
 
+const router = useRouter()
 const open = ref(false)
 
 const menuOpen = () => {
@@ -13,37 +15,37 @@ const menuOpen = () => {
   <header
     class="container flex h-16 w-full items-center justify-between bg-primary px-5 shadow-md md:px-6"
   >
-    <RouterLink to="/">
+    <router-link to="/">
       <img src="/assets/logo.png" class="h-8" alt="Logo" />
-    </RouterLink>
+    </router-link>
 
     <nav
       class="absolute left-0 z-20 flex w-full flex-col bg-primary px-6 text-center text-[15px] font-normal uppercase leading-[18.15px] duration-300 lg:static lg:my-0 lg:w-auto lg:flex-row lg:gap-6"
       :class="[open ? 'top-0' : 'top-[-380%]']"
     >
-      <RouterLink
+      <router-link
         to="/platform"
         class="py-5 text-white transition-all duration-300 hover:text-slate-300"
         @click="menuOpen"
-        >plataforma</RouterLink
+        >plataforma</router-link
       >
-      <RouterLink
+      <router-link
         to="/solutions"
         class="py-5 text-white transition-all duration-300 hover:text-slate-300"
         @click="menuOpen"
-        >soluções</RouterLink
+        >soluções</router-link
       >
-      <RouterLink
+      <router-link
         to="/plans"
         class="py-5 text-white transition-all duration-300 hover:text-slate-300"
         @click="menuOpen"
-        >planos</RouterLink
+        >planos</router-link
       >
-      <RouterLink
+      <router-link
         to="/terms"
         class="py-5 text-white transition-all duration-300 hover:text-slate-300"
         @click="menuOpen"
-        >termos de uso</RouterLink
+        >termos de uso</router-link
       >
 
       <div class="block items-center gap-[10px] space-x-3 lg:hidden lg:space-x-1">
@@ -53,12 +55,12 @@ const menuOpen = () => {
         >
           login
         </button>
-        <button
-          type="button"
+        <router-link
+          to="/register"
           class="h-[38px] w-24 rounded-[10px] bg-secondary px-[15px] py-[11.5px] text-center text-[12px] font-medium uppercase leading-[14.52px] text-white transition-all duration-300 hover:bg-blue_dark hover:text-white focus:outline-none"
         >
           cadastro
-        </button>
+        </router-link>
       </div>
     </nav>
     <div class="hidden items-center gap-[10px] space-x-3 md:space-x-1 lg:flex">
