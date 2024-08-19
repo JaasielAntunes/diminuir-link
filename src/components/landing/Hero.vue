@@ -18,7 +18,7 @@ import Label from '../Label.vue'
         />
         <button
           type="submit"
-          class="absolute left-auto right-3 my-3 rounded-lg bg-secondary px-1 py-3 text-[15px] font-normal uppercase leading-[18.15px] text-white transition-all duration-300 hover:bg-blue_light"
+          class="absolute -right-6 left-auto my-3 rounded-lg bg-secondary px-1 py-3 text-[15px] font-normal uppercase leading-[18.15px] text-white transition-all duration-300 hover:bg-blue_light sm:right-1.5"
         >
           encurtar
         </button>
