@@ -8,7 +8,7 @@ import Label from '../Label.vue'
     style="background-image: url('/assets/hero-bg.svg')"
   >
     <div class="mt-4 rounded-[10px] px-5">
-      <div class="container relative flex w-80 sm:mr-10 sm:w-full">
+      <div class="relative flex w-80 sm:mr-10 sm:w-full">
         <input
           type="url"
           pattern="https://.*"
@@ -18,7 +18,7 @@ import Label from '../Label.vue'
         />
         <button
           type="submit"
-          class="absolute -right-3 my-3 rounded-lg bg-secondary px-1 py-3 text-[15px] font-normal uppercase leading-[18.15px] text-white transition-all duration-300 hover:bg-blue_light sm:right-10 sm:my-2 sm:p-4"
+          class="absolute right-1.5 my-3 rounded-lg bg-secondary px-1 py-3 text-[15px] font-normal uppercase leading-[18.15px] text-white transition-all duration-300 hover:bg-blue_light sm:my-2 sm:p-4"
         >
           encurtar
         </button>
