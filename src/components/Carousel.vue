@@ -19,7 +19,7 @@ export default {
         <div class="mt-10 md:pr-8 lg:w-1/2">
           <div class="">
             <h3
-              class="mb-7 mr-7 text-left text-[42px] font-semibold leading-[50.83px] text-blue_dark"
+              class="mb-7 mr-7 text-left text-3xl font-semibold leading-8 text-blue_dark sm:text-[42px] sm:leading-[50.83px]"
             >
               Encurtador poderoso e com alto nível de personalização
             </h3>

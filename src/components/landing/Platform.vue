@@ -15,6 +15,32 @@ import Statistics from '../Statistics.vue'
 
   <div class="container relative">
     <div class="absolute inset-x-0 -top-16 flex flex-wrap justify-center">
+      <!-- Inicio Mobile -->
+      <div
+        class="group block h-[168px] w-[300px] grid-cols-[auto_1fr] items-center bg-gray p-4 transition-all duration-300 hover:bg-secondary sm:hidden"
+      >
+        <div class="mr-5 flex justify-center">
+          <img
+            src="/assets/autoescalavel.svg"
+            alt="Ícone"
+            class="group-hover:brightness-0 group-hover:invert"
+          />
+        </div>
+        <div>
+          <h3
+            class="mt-2 text-center text-xl font-light leading-[24.2px] text-header group-hover:text-white"
+          >
+            Autoescalável
+          </h3>
+          <p
+            class="mt-2 text-center font-light leading-[16.94px] text-darkness group-hover:text-white"
+          >
+            Infraestrutura Cloud 100% autoescalável, em AWS Lambda. 99,99% de disponibilidade.
+          </p>
+        </div>
+      </div>
+      <!-- Fim Mobile -->
+
       <CardPlatform
         icon="/assets/autoescalavel.svg"
         name="Autoescalável"

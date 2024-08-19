@@ -15,7 +15,7 @@ const { open, menuOpen } = useMenuToggle()
     </router-link>
 
     <nav
-      class="absolute left-0 z-20 flex w-full flex-col bg-primary px-6 text-center text-[15px] font-normal uppercase leading-[18.15px] duration-300 lg:static lg:my-0 lg:w-auto lg:flex-row lg:gap-6"
+      class="absolute left-0 z-20 flex h-[280px] w-full flex-col bg-primary px-6 text-center text-[15px] font-normal uppercase leading-[18.15px] duration-300 lg:static lg:my-0 lg:w-auto lg:flex-row lg:gap-6"
       :class="[open ? 'top-0' : 'top-[-380%]']"
     >
       <router-link
