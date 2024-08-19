@@ -7,7 +7,7 @@ import Label from '../Label.vue'
     class="container flex h-80 w-full items-center justify-center border-y-4 border-blue_dark bg-cover bg-center sm:h-72 md:h-[370px]"
     style="background-image: url('/assets/hero-bg.svg')"
   >
-    <div class="mt-4 rounded-[10px] px-12">
+    <div class="mt-4 rounded-[10px] px-5">
       <div class="relative mr-0 flex w-80 sm:mr-10 sm:w-full">
         <input
           type="url"
