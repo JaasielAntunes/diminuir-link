@@ -8,7 +8,7 @@ import Label from '../Label.vue'
     style="background-image: url('/assets/hero-bg.svg')"
   >
     <div class="mt-4 rounded-[10px] px-5">
-      <div class="relative flex w-80 sm:w-full">
+      <div class="relative mr-6 flex w-80 sm:w-full">
         <input
           type="url"
           pattern="https://.*"
