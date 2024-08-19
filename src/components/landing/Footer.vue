@@ -28,7 +28,7 @@ import LinkElement from '../LinkElement.vue'
         <h2 class="mb-6 text-lg font-medium capitalize leading-[21.78px] text-white">contato</h2>
         <address class="mb-3 text-sm font-light not-italic leading-[16.94px] text-vector">
           Endereço: <br />
-          R. Gomes de Carvalho, 1105 - Vila Olimpia São Paulo, SP<br />
+          R. Gomes de Carvalho, 1105 - Vila Olímpia São Paulo, SP<br />
         </address>
         <span class="text-sm font-light not-italic leading-[16.94px] text-vector"
           >E-mail: <br />
