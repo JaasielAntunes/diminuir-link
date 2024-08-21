@@ -14,12 +14,14 @@ import Statistics from '../Statistics.vue'
   </div>
 
   <div class="container relative">
-    <div class="absolute inset-x-0 -top-16 flex flex-wrap justify-center">
+    <div
+      class="relative inset-x-0 -top-16 grid grid-cols-1 justify-center sm:grid-cols-2 md:flex md:flex-wrap"
+    >
       <!-- Inicio Mobile -->
       <div
-        class="group block h-[168px] w-[300px] grid-cols-[auto_1fr] items-center bg-gray p-4 transition-all duration-300 hover:bg-secondary sm:hidden"
+        class="group block h-[168px] w-[300px] items-center bg-gray p-4 transition-all duration-300 hover:bg-secondary sm:hidden"
       >
-        <div class="mr-5 flex justify-center">
+        <div class="flex justify-center">
           <img
             src="/assets/autoescalavel.svg"
             alt="Ícone"
@@ -36,6 +38,81 @@ import Statistics from '../Statistics.vue'
             class="mt-2 text-center font-light leading-[16.94px] text-darkness group-hover:text-white"
           >
             Infraestrutura Cloud 100% autoescalável, em AWS Lambda. 99,99% de disponibilidade.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="group block h-[168px] w-[300px] items-center bg-gray p-4 transition-all duration-300 hover:bg-secondary sm:hidden"
+      >
+        <div class="flex justify-center">
+          <img
+            src="/assets/alta-perfomance.svg"
+            alt="Ícone"
+            class="group-hover:brightness-0 group-hover:invert"
+          />
+        </div>
+        <div>
+          <h3
+            class="mt-2 text-center text-xl font-light leading-3 text-header group-hover:text-white md:leading-[24.2px] lg:leading-[24.2px] xl:leading-[24.2px] 2xl:leading-[24.2px]"
+          >
+            Alta Perfomance
+          </h3>
+          <p
+            class="mt-3.5 text-center font-light leading-[16.94px] text-darkness group-hover:text-white md:mt-2"
+          >
+            Alta performance que oferece velocidade e eficiência em cada link. Tempo de resposta
+            médio de 70ms para cada acesso.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="group block h-[168px] w-[300px] items-center bg-gray p-4 transition-all duration-300 hover:bg-secondary sm:hidden"
+      >
+        <div class="flex justify-center">
+          <img
+            src="/assets/analytics.svg"
+            alt="Ícone"
+            class="group-hover:brightness-0 group-hover:invert"
+          />
+        </div>
+        <div>
+          <h3
+            class="mt-2 text-center text-xl font-light leading-3 text-header group-hover:text-white md:leading-[24.2px] lg:leading-[24.2px] xl:leading-[24.2px] 2xl:leading-[24.2px]"
+          >
+            Segurança
+          </h3>
+          <p
+            class="mt-3.5 text-center font-light leading-[16.94px] text-darkness group-hover:text-white md:mt-2"
+          >
+            Segurança em primeiro lugar. Proteção completa para seus dados. Compliance com ISO 27001
+            e PCI-DSS.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="group block h-[168px] w-[300px] items-center bg-gray p-4 transition-all duration-300 hover:bg-secondary sm:hidden"
+      >
+        <div class="flex justify-center">
+          <img
+            src="/assets/analytics.svg"
+            alt="Ícone"
+            class="group-hover:brightness-0 group-hover:invert"
+          />
+        </div>
+        <div>
+          <h3
+            class="mt-2 text-center text-xl font-light leading-3 text-header group-hover:text-white md:leading-[24.2px] lg:leading-[24.2px] xl:leading-[24.2px] 2xl:leading-[24.2px]"
+          >
+            Analytics
+          </h3>
+          <p
+            class="mt-3.5 text-center font-light leading-[16.94px] text-darkness group-hover:text-white md:mt-2"
+          >
+            Métricas avançadas para cada link, Insights poderosos ao seu alcance. Análises
+            detalhadas para otimizar seu negócio.
           </p>
         </div>
       </div>
@@ -64,7 +141,7 @@ import Statistics from '../Statistics.vue'
     </div>
   </div>
 
-  <div class="container my-8 mt-0 grid grid-cols-1 sm:mt-28 md:mt-28 md:grid-cols-3">
+  <div class="container -mb-5 mt-0 grid grid-cols-1 md:grid-cols-3 lg:mb-14">
     <Statistics icon="/assets/url.svg" total="+10.000.000" title="Links encurtados" />
     <Statistics icon="/assets/target.svg" total="+100.000.000" title="Cliques" />
     <Statistics icon="/assets/customers.svg" total="+100.000" title="Clientes" />
