@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import CardPlatform from '@/components/CardPlatform.vue'
-
+import CardPlatform from '../CardPlatform.vue'
 import Statistics from '../Statistics.vue'
 </script>
 
@@ -45,7 +44,7 @@ import Statistics from '../Statistics.vue'
       >
         <div class="flex justify-center">
           <img
-            src="/assets/alta-perfomance.svg"
+            src="/assets/alta-performance.svg"
             alt="Ícone"
             class="group-hover:brightness-0 group-hover:invert"
           />
@@ -54,7 +53,7 @@ import Statistics from '../Statistics.vue'
           <h3
             class="mt-2 text-center text-xl font-light leading-3 text-header group-hover:text-white md:leading-[24.2px] lg:leading-[24.2px] xl:leading-[24.2px] 2xl:leading-[24.2px]"
           >
-            Alta Perfomance
+            Alta Performance
           </h3>
           <p
             class="mt-3.5 text-center font-light leading-[16.94px] text-darkness group-hover:text-white md:mt-2"
@@ -122,8 +121,8 @@ import Statistics from '../Statistics.vue'
         description="Infraestrutura Cloud 100% autoescalável, em AWS Lambda. 99,99% de disponibilidade."
       />
       <CardPlatform
-        icon="/assets/alta-perfomance.svg"
-        name="Alta Perfomance"
+        icon="/assets/alta-performance.svg"
+        name="Alta Performance"
         description="Alta performance que oferece velocidade e eficiência em cada link. Tempo de resposta médio de 70ms para cada acesso."
       />
       <CardPlatform
