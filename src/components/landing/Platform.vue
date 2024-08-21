@@ -12,7 +12,7 @@ import Statistics from '../Statistics.vue'
     </span>
   </div>
 
-  <div class="container relative">
+  <div class="container relative mt-5">
     <div class="relative inset-x-0 -top-16 grid justify-center sm:grid-cols-2 md:flex md:flex-wrap">
       <!-- Inicio Mobile -->
       <div
