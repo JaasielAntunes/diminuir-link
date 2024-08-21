@@ -14,9 +14,7 @@ import Statistics from '../Statistics.vue'
   </div>
 
   <div class="container relative">
-    <div
-      class="relative inset-x-0 -top-16 grid grid-cols-1 justify-center sm:grid-cols-2 md:flex md:flex-wrap"
-    >
+    <div class="relative inset-x-0 -top-16 grid justify-center sm:grid-cols-2 md:flex md:flex-wrap">
       <!-- Inicio Mobile -->
       <div
         class="group block h-[168px] w-[300px] items-center bg-gray p-4 transition-all duration-300 hover:bg-secondary sm:hidden"
