@@ -70,7 +70,7 @@ import Statistics from '../Statistics.vue'
       >
         <div class="flex justify-center">
           <img
-            src="/assets/analytics.svg"
+            src="/assets/security.svg"
             alt="Ícone"
             class="group-hover:brightness-0 group-hover:invert"
           />
@@ -127,7 +127,7 @@ import Statistics from '../Statistics.vue'
         description="Alta performance que oferece velocidade e eficiência em cada link. Tempo de resposta médio de 70ms para cada acesso."
       />
       <CardPlatform
-        icon="/assets/analytics.svg"
+        icon="/assets/security.svg"
         name="Segurança"
         description="Segurança em primeiro lugar. Proteção completa para seus dados. Compliance com ISO 27001 e PCI-DSS."
       />
