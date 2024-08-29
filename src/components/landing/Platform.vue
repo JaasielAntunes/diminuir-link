@@ -4,19 +4,19 @@ import Statistics from '../Statistics.vue'
 </script>
 
 <template>
-  <div class="container relative h-[140px] bg-primary">
+  <section id="platform" class="relative h-[140px] bg-primary">
     <span
       class="flex justify-center pt-6 text-[26px] font-light uppercase leading-[31.47px] text-white"
     >
       plataforma
     </span>
-  </div>
+  </section>
 
   <div class="container relative mt-5">
     <div class="relative inset-x-0 -top-16 grid justify-center sm:grid-cols-2 md:flex md:flex-wrap">
       <!-- Inicio Mobile -->
       <div
-        class="group block h-[168px] w-[300px] items-center bg-gray p-4 transition-all duration-300 hover:bg-secondary sm:hidden"
+        class="group block h-[168px] w-auto cursor-default items-center bg-gray p-4 transition-all duration-300 hover:bg-secondary sm:hidden"
       >
         <div class="flex justify-center">
           <img
@@ -40,7 +40,7 @@ import Statistics from '../Statistics.vue'
       </div>
 
       <div
-        class="group block h-[168px] w-[300px] items-center bg-gray p-4 transition-all duration-300 hover:bg-secondary sm:hidden"
+        class="group block h-[168px] w-auto cursor-default items-center bg-gray p-4 transition-all duration-300 hover:bg-secondary sm:hidden"
       >
         <div class="flex justify-center">
           <img
@@ -65,7 +65,7 @@ import Statistics from '../Statistics.vue'
       </div>
 
       <div
-        class="group block h-[168px] w-[300px] items-center bg-gray p-4 transition-all duration-300 hover:bg-secondary sm:hidden"
+        class="group block h-[168px] w-auto cursor-default items-center bg-gray p-4 transition-all duration-300 hover:bg-secondary sm:hidden"
       >
         <div class="flex justify-center">
           <img
@@ -90,7 +90,7 @@ import Statistics from '../Statistics.vue'
       </div>
 
       <div
-        class="group block h-[168px] w-[300px] items-center bg-gray p-4 transition-all duration-300 hover:bg-secondary sm:hidden"
+        class="group block h-[168px] w-auto cursor-default items-center bg-gray p-4 transition-all duration-300 hover:bg-secondary sm:hidden"
       >
         <div class="flex justify-center">
           <img

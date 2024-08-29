@@ -7,7 +7,7 @@ const props = defineProps<{
 </script>
 
 <template>
-  <div class="hidden text-center md:mb-14 md:block lg:mb-0">
+  <div class="hidden cursor-default text-center md:mb-14 md:block lg:mb-0">
     <img v-if="icon" :src="icon" alt="Ícone URL" class="mx-auto mb-3 size-12" />
     <p class="text-4xl font-normal leading-[45.99px] text-secondary">
       {{ total }}

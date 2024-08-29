@@ -7,9 +7,7 @@ const { open, menuOpen } = useMenuToggle()
 </script>
 
 <template>
-  <header
-    class="container flex h-16 w-full items-center justify-between bg-primary px-5 shadow-md md:px-6"
-  >
+  <header class="flex h-16 w-full items-center justify-between bg-primary px-5 shadow-md md:px-6">
     <router-link to="/">
       <img src="/assets/logo.png" class="h-8" alt="Logo" />
     </router-link>
@@ -18,29 +16,29 @@ const { open, menuOpen } = useMenuToggle()
       class="absolute left-0 z-20 flex w-full flex-col bg-primary p-6 text-center text-[15px] font-normal uppercase leading-[18.15px] duration-300 lg:static lg:my-0 lg:w-auto lg:flex-row lg:gap-6 lg:p-0"
       :class="[open ? 'top-0' : '-top-full']"
     >
-      <router-link
-        to="/platform"
-        class="py-4 text-white transition-all duration-300 hover:text-slate-300"
+      <a
+        href="#platform"
+        class="relative py-4 text-white transition-all duration-300 after:absolute after:block after:h-[3px] after:w-full after:origin-center after:scale-x-0 after:bg-sky-500 after:transition after:duration-300 after:content-[''] after:hover:scale-x-100"
         @click="menuOpen"
-        >plataforma</router-link
+        >plataforma</a
       >
-      <router-link
-        to="/solutions"
-        class="py-4 text-white transition-all duration-300 hover:text-slate-300"
+      <a
+        href="#solutions"
+        class="relative py-4 text-white transition-all duration-300 after:absolute after:block after:h-[3px] after:w-full after:origin-center after:scale-x-0 after:bg-sky-500 after:transition after:duration-300 after:content-[''] after:hover:scale-x-100"
         @click="menuOpen"
-        >soluções</router-link
+        >soluções</a
       >
-      <router-link
-        to="/plans"
-        class="py-4 text-white transition-all duration-300 hover:text-slate-300"
+      <a
+        href="#plans"
+        class="relative py-4 text-white transition-all duration-300 after:absolute after:block after:h-[3px] after:w-full after:origin-center after:scale-x-0 after:bg-sky-500 after:transition after:duration-300 after:content-[''] after:hover:scale-x-100"
         @click="menuOpen"
-        >planos</router-link
+        >planos</a
       >
-      <router-link
-        to="/terms"
-        class="py-4 text-white transition-all duration-300 hover:text-slate-300"
+      <a
+        href="#terms"
+        class="relative py-4 text-white transition-all duration-300 after:absolute after:block after:h-[3px] after:w-full after:origin-center after:scale-x-0 after:bg-sky-500 after:transition after:duration-300 after:content-[''] after:hover:scale-x-100"
         @click="menuOpen"
-        >termos de uso</router-link
+        >termos de uso</a
       >
 
       <div class="mt-3 block items-center gap-[10px] space-x-3 lg:hidden lg:space-x-1">
@@ -52,7 +50,7 @@ const { open, menuOpen } = useMenuToggle()
         </router-link>
         <router-link
           to="/register"
-          class="h-[38px] w-24 rounded-[10px] bg-secondary px-[15px] py-[11.5px] text-center text-[12px] font-medium uppercase leading-[14.52px] text-white transition-all duration-300 hover:bg-blue_light hover:text-white focus:outline-none"
+          class="h-[38px] w-24 rounded-[10px] bg-secondary px-[15px] py-[11.5px] text-center text-[12px] font-medium uppercase leading-[14.52px] text-white transition-all duration-300 hover:bg-sky-500 hover:text-white focus:outline-none"
         >
           cadastro
         </router-link>
@@ -67,7 +65,7 @@ const { open, menuOpen } = useMenuToggle()
       </button>
       <button
         type="button"
-        class="h-[38px] w-24 rounded-[10px] bg-secondary px-[15px] py-[11.5px] text-center text-[12px] font-medium uppercase leading-[14.52px] text-white transition-all duration-300 hover:bg-blue_dark hover:text-white focus:outline-none"
+        class="h-[38px] w-24 rounded-[10px] bg-secondary px-[15px] py-[11.5px] text-center text-[12px] font-medium uppercase leading-[14.52px] text-white transition-all duration-300 hover:bg-sky-500 hover:text-white focus:outline-none"
       >
         cadastro
       </button>

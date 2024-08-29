@@ -7,7 +7,7 @@ const { activeButton, toggleActive, cards } = usePlanData()
 </script>
 
 <template>
-  <div class="container border-b-4 border-blue_dark bg-primary pt-2">
+  <section id="plans" class="border-b-4 border-blue_dark bg-primary pt-2">
     <h1 class="my-5 text-center text-[26px] font-light uppercase leading-[31.47px] text-white">
       planos
     </h1>
@@ -19,8 +19,8 @@ const { activeButton, toggleActive, cards } = usePlanData()
           @click="toggleActive('anual')"
           :class="[
             activeButton === 'anual'
-              ? 'bg-border_secondary text-white hover:bg-blue_light'
-              : 'bg-transparent text-low_white transition duration-300 hover:text-white',
+              ? 'bg-border_secondary text-white transition duration-200 hover:bg-sky-500'
+              : 'bg-transparent text-low_white transition duration-200 hover:text-white',
             'rounded-[5px] px-3 py-1 text-lg font-medium leading-[21.78px]'
           ]"
         >
@@ -31,8 +31,8 @@ const { activeButton, toggleActive, cards } = usePlanData()
           @click="toggleActive('mensal')"
           :class="[
             activeButton === 'mensal'
-              ? 'bg-border_secondary text-white hover:bg-blue_light'
-              : 'bg-transparent text-low_white transition duration-300 hover:text-white',
+              ? 'bg-border_secondary text-white transition duration-200 hover:bg-sky-500'
+              : 'bg-transparent text-low_white transition duration-200 hover:text-white',
             'rounded-[5px] px-3 py-1 text-lg font-medium leading-[21.78px]'
           ]"
         >
@@ -48,9 +48,10 @@ const { activeButton, toggleActive, cards } = usePlanData()
           :key="card.id"
           :title="card.title"
           :price="card.price"
+          :checkbox="card.checkbox"
           :options="card.options"
         />
       </div>
     </div>
-  </div>
+  </section>
 </template>
